@@ -43,74 +43,60 @@
         <!--Formulario-->
         <div class="formulario_registro">
             <form>
+                <h3>Registrate</h3>
                 <div class="form-group">
-                    <label for="exampleInputEmail1">Correo</label>
-                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                    <small id="emailHelp" class="form-text text-muted">Nosotros no compartimos tu correo con
-                        nadie.</small>
+                    <label>Nombre</label>
+                    <input type="email" class="form-control">
+                    <small class="form-text text-muted">Te contactaremos con este nombre.</small>
                 </div>
                 <div class="form-group">
-                    <label for="exampleInputPassword1">Contraseña</label>
-                    <input type="password" class="form-control" id="exampleInputPassword1">
+                    <label>Correo electronico</label>
+                    <input type="email" class="form-control">
+                    <small class="form-text text-muted">No compartiremos tu email</small>
                 </div>
-                <div class="form-group form-check">
-                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                    <label class="form-check-label" for="exampleCheck1">Check me out</label>
-                </div>
-                <button type="submit" class="btn btn-primary">Ingresar</button>
+                <button type="button" class="btn btn-success btnb">Submit</button>
             </form>
         </div>
     </div>
     <!--Catalogo-->
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col">
-                <h1 class="text-center">Catalogo de Productos</h1>
+    <div class="row_custom">
+        <div class="col_custom">
+            <h1 class="text-center">Catalogo de Productos</h1>
+        </div>
+    </div>
+    <div class="container-custom mb-3">
+        <div class="card card-custom">
+            <img class="img-responsive" src="assets/images/chifle_1.jpg" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Chifle pequeño</h5>
+                <p class="card-text">Tamaño 60 gr.</p>
+                <a href="#" class="btn btn-primary">Agregar al carrito</a>
             </div>
         </div>
-        <div class="row mb-5">
-            <div class="col-lg-3 col-md-4 col-sm-12">
-                <div class="card">
-                    <img class="img-responsive" src="assets/images/chifle_1.jpg" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Chifle pequeño</h5>
-                        <p class="card-text">Tamaño 60 gr.</p>
-                        <a href="#" class="btn btn-primary">Agregar al carrito</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-3 col-md-4 col-sm-12">
-                <div class="card">
-                    <img src="assets/images/chifle_2.jpg" class="img-responsive" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Chifle mediano</h5>
-                        <p class="card-text">Tamaño 100 gr.</p>
-                        <a href="#" class="btn btn-primary">Agregar al carrito</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-3 col-md-4 col-sm-12">
-                <div class="card">
-                    <img src="assets/images/chifle_3.jpg" class="img-responsive" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Chifle grande</h5>
-                        <p class="card-text">Tamaño 120 gr.</p>
-                        <a href="#" class="btn btn-primary">Agregar al carrito</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-3 col-md-4 col-sm-12">
-                <div class="card">
-                    <img src="assets/images/chifle_4.jpg" class="img-responsive" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Chifle extra grande</h5>
-                        <p class="card-text">Tamaño 160 gr.</p>
-                        <a href="#" class="btn btn-primary">Agregar al carrito</a>
-                    </div>
-                </div>
+        <div class="card card-custom">
+            <img src="assets/images/chifle_2.jpg" class="img-responsive" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Chifle mediano</h5>
+                <p class="card-text">Tamaño 100 gr.</p>
+                <a href="#" class="btn btn-primary">Agregar al carrito</a>
             </div>
         </div>
-
+        <div class="card card-custom">
+            <img src="assets/images/chifle_3.jpg" class="img-responsive" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Chifle grande</h5>
+                <p class="card-text">Tamaño 120 gr.</p>
+                <a href="#" class="btn btn-primary">Agregar al carrito</a>
+            </div>
+        </div>
+        <div class="card card-custom">
+            <img src="assets/images/chifle_4.jpg" class="img-responsive" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Chifle extra grande</h5>
+                <p class="card-text">Tamaño 160 gr.</p>
+                <a href="#" class="btn btn-primary">Agregar al carrito</a>
+            </div>
+        </div>
     </div>
     <!--Footer-->
     <footer class="footer">
@@ -124,7 +110,7 @@
                         src="assets/images/twitter-logo.png" class="img_social_footer" alt="Twitter"></img></a>
             </ul>
             <p>Diseñado y distribuido por Daniel Pesantes.</p>
-            <p>Currently v1.0 Code licensed.</p>
+            <p>© 2022 JC. Todos los derechos reservados.</p>
         </div>
     </footer>
 </body>
